@@ -1,0 +1,16 @@
+button {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 8px 24px;
+    border-radius: 10px;
+    border-width: 3px;
+    box-shadow: 2px 2px 4px #000;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: ease-in-out 500ms;
+    transform: scale(1.05) rotate(-1deg);
+}

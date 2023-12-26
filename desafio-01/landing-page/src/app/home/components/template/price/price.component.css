@@ -1,0 +1,80 @@
+.table-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.table-content_info {
+    background-color: #f1f1ffdc;
+    width: 550px;
+    box-shadow: 1px 1px 6px #000;
+    margin-top: 30px;
+    border: #007FE3 3px solid;
+    border-radius: 10px;
+    padding: 20px 40px 40px 50px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-content_info:hover {
+    box-shadow: 0 0px 10px 3px #F1F1FF;
+    border-width: 4px;
+    background-color: #F1F1FF;
+}
+
+.table-content_info h3 {
+    font-size: 40px;
+    text-decoration: solid #000 underline;
+}
+
+.price-contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price-contact p {
+    font-size: 20px;
+}
+
+.price-contact p span {
+    font-size: 25px;
+    text-decoration: underline 1px solid #007FE3;
+}
+
+.info {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info li {
+    list-style: disc;
+}
+
+.info li p {
+    text-indent: 5%;
+}
+
+h4 {
+    color: rgba(20, 20, 20, 0.88);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span {
+    color: #007FE3;
+    font-weight: 500;
+    font-size: 16px;
+}

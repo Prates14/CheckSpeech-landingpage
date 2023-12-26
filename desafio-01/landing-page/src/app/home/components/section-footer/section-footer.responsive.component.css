@@ -1,0 +1,60 @@
+@media (max-width: 750px) {
+    .container {
+        height: 35vh;
+    }
+
+    .logo > a > h3 {
+        font-size: 40px;
+    }
+
+    p, a {
+        font-size: 28px;
+    }
+
+    .menu-bar {
+        margin-bottom: 0px;
+    }
+
+    .menu-bar h3, .contato h3 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .copyright p {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+    .container {
+        height: 50vh;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu-bar h3, .contato h3 {
+        font-size: 45px;
+    }
+
+    p, a {
+        font-size: 35px;
+        margin-top: 8px;
+        line-height: normal;
+    }
+
+    .contato p img {
+        height: 40px;
+    }
+
+    .copyright p {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo {
+        display: none;
+    }
+}
