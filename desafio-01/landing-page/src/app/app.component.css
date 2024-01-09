@@ -1,7 +1,9 @@
 app-menu-bar {
     position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    width: 100vw;
     z-index: 1;
+}
+
+app-page {
+    width: 100%;
 }

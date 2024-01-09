@@ -1,6 +1,5 @@
 .container {
     height: 28vh;
-    width: 100%;
     background: rgb(241,241,255);
     background: linear-gradient(0deg, rgba(241,241,255,1) 98%, rgba(0,109,196,1) 100%);
     margin-top: 15px;
