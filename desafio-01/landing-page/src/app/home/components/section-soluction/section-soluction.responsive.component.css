@@ -5,7 +5,7 @@
 @media (max-width: 320px) and (min-width: 280px) {
 
   .container {
-    height: 115vh;
+    height: 120vh;
   }
 
   .text-content {
@@ -38,11 +38,11 @@
   }
 
   input[id=panel-1]:checked~.accordion-content {
-    height: 130px;
+    height: 145px;
   }
 
   input[id=panel-2]:checked~.accordion-content {
-    height: 115px;
+    height: 130px;
   }
 
   input[id=panel-3]:checked~.accordion-content {

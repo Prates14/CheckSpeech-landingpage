@@ -1,5 +1,28 @@
-@media (max-width: 950px) {
-}
+@media (max-width: 950px) {}
 
-@media (max-width: 480px) and (min-width: 320px) {
+@media (max-width: 320px) and (min-width: 280px) {
+    .footer-form {
+        width: 85%;
+    }
+
+    .footer-form legend {
+        font-size: 30px;
+    }
+
+    #pais,
+    #telefone {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .form-grid input[type="text"],
+    .form-grid input[type="email"],
+    .form-grid textarea {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .form-grid>div {
+        margin-bottom: 20px;
+    }
 }
