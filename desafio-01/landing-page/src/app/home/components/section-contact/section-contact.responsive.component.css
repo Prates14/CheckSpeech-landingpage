@@ -1,6 +1,6 @@
 @media (max-width: 950px) {}
 
-@media (max-width: 320px) and (min-width: 280px) {
+@media (max-width: 450px) and (min-width: 280px) {
     .footer-form {
         width: 85%;
     }
