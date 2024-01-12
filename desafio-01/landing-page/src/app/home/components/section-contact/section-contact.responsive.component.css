@@ -1,12 +1,10 @@
-@media (max-width: 950px) {}
-
-@media (max-width: 450px) and (min-width: 280px) {
+@media (max-width: 750px) {
     .footer-form {
-        width: 85%;
+        width: 100%;
     }
 
     .footer-form legend {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     #pais,
@@ -18,11 +16,27 @@
     .form-grid input[type="text"],
     .form-grid input[type="email"],
     .form-grid textarea {
-        font-size: 15px;
+        font-size: 20px;
         padding: 10px 10px;
     }
 
     .form-grid>div {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 450px) and (min-width: 280px) {
+    .footer-form {
+        width: 85%;
+    }
+
+    .footer-form legend {
+        font-size: 30px;
+    }
+
+    .form-grid input[type="text"],
+    .form-grid input[type="email"],
+    .form-grid textarea {
+        font-size: 15px;
     }
 }

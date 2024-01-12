@@ -1,7 +1,4 @@
-/* @media (max-width: 750px) {
-} */
-
-@media (max-width: 450px) and (min-width: 280px) {
+@media (max-width: 750px) {
     .container {
         margin-top: 0;
         min-height: 50vh;
@@ -21,7 +18,7 @@
     }
 
     .logo a h3 {
-        font-size: 17px;
+        font-size: 25px;
     }
 
     .logo img {
@@ -35,7 +32,7 @@
     }
     
     p, a {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .menu-bar {
@@ -43,7 +40,7 @@
     }
     
     .menu-bar h3, .contato h3 {
-        font-size: 17px;
+        font-size: 20px;
         margin-bottom: 0;
     }
 
@@ -56,8 +53,25 @@
     }
     
     .copyright p {
-        font-size: 10px;
+        font-size: 15px;
         margin: 5px;
     }
+}
+
+@media (max-width: 450px) and (min-width: 280px) {
+    .logo a h3 {
+        font-size: 17px;
+    }
+
+    p, a {
+        font-size: 13px;
+    }
     
+    .menu-bar h3, .contato h3 {
+        font-size: 17px;
+    }
+
+    .copyright p {
+        font-size: 10px;
+    }
 }
