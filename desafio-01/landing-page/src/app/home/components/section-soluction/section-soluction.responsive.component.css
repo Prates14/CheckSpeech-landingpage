@@ -1,21 +1,19 @@
-@media (max-width: 1100px) {}
-
-@media (max-width: 750px) {
+@media (max-width: 1100px) {
   .container {
     height: 120vh;
   }
 
   .text-content {
-    max-width: 85%;
+    max-width: 90%;
   }
 
   .text-content h2 {
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 30px;
   }
 
   .text-content p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
     text-align: justify;
   }
@@ -26,8 +24,46 @@
   }
 
   .panel {
-    max-width: 85%;
+    max-width: 95%;
     width: 100%;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  input[id=panel-1]:checked~.accordion-content {
+    height: 120px;
+  }
+
+  input[id=panel-2]:checked~.accordion-content {
+    height: 100px;
+  }
+
+  input[id=panel-3]:checked~.accordion-content {
+    height: 40px;
+  }
+
+  input[id=panel-4]:checked~.accordion-content {
+    height: 80px;
+  }
+}
+
+@media (max-width: 750px) {
+  .text-content {
+    max-width: 85%;
+  }
+
+  .text-content h2 {
+    font-size: 40px;
+  }
+
+  .text-content p {
+    font-size: 20px;
+  }
+
+  .panel {
+    max-width: 85%;
   }
 
   label {

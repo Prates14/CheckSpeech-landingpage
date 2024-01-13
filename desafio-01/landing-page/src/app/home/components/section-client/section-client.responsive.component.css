@@ -1,12 +1,25 @@
-/* @media (max-width: 1100px) {
-} */
-
-@media (max-width: 750px) {
+@media (max-width: 1100px) {
     .container {
         height: 100vh;
         justify-content: end;
     }
 
+    .container h2 {
+        font-size: 45px;
+    }
+
+    .client {
+        grid-template-columns: auto auto auto;
+        row-gap: 40px;
+        column-gap: 40px;
+    }
+
+    .client img {
+        width: 140px;
+    }
+}
+
+@media (max-width: 750px) {
     .container h2 {
         font-size: 40px;
     }
@@ -14,11 +27,6 @@
     .client {
         grid-template-columns: auto auto;
         row-gap: 30px;
-        column-gap: 40px;
-    }
-
-    .client img {
-        width: 140px;
     }
 }
 
