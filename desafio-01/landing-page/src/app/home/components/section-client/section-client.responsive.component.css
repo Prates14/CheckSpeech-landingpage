@@ -1,6 +1,6 @@
 @media (max-width: 1100px) {
     .container {
-        height: 100vh;
+        height: 50vh;
         justify-content: end;
     }
 
@@ -20,6 +20,10 @@
 }
 
 @media (max-width: 750px) {
+    .container {
+        height: 80vh;
+    }
+
     .container h2 {
         font-size: 40px;
     }

@@ -1,6 +1,17 @@
+@media (max-width: 1600px) {
+  .text-content {
+    max-width: 80%;
+  }
+
+  .panel {
+    max-width: 80%;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1100px) {
   .container {
-    height: 120vh;
+    height: 100vh;
   }
 
   .text-content {
