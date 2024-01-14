@@ -1,0 +1,94 @@
+[debug] [2024-01-14T14:52:24.499Z] ----------------------------------------------------------------------
+[debug] [2024-01-14T14:52:24.501Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Familia Prates\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-14T14:52:24.502Z] CLI Version:   13.0.2
+[debug] [2024-01-14T14:52:24.502Z] Platform:      win32
+[debug] [2024-01-14T14:52:24.502Z] Node Version:  v18.17.1
+[debug] [2024-01-14T14:52:24.503Z] Time:          Sun Jan 14 2024 11:52:24 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2024-01-14T14:52:24.503Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-14T14:52:24.567Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-14T14:52:24.567Z] > authorizing via signed-in user (guipratesdsantos@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Familia Prates\Desktop\praticarangular\desafios-frontend\desafio-01\landing-page
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-14T14:52:50.859Z] Using project from CLI flag: checkspeech-landingpage
+[debug] [2024-01-14T14:52:50.861Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage [none]
+[debug] [2024-01-14T14:52:51.371Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage 200
+[debug] [2024-01-14T14:52:51.371Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage {"projectId":"checkspeech-landingpage","projectNumber":"194971793401","displayName":"CheckSpeech-landingpage","name":"projects/checkspeech-landingpage","resources":{"hostingSite":"checkspeech-landingpage"},"state":"ACTIVE","etag":"1_9d90b262-7db0-4687-a987-316e2f8de6e5"}
+[info] i  Using project checkspeech-landingpage (CheckSpeech-landingpage) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-14T14:52:51.377Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage [none]
+[debug] [2024-01-14T14:52:51.784Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage 200
+[debug] [2024-01-14T14:52:51.784Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage {"projectId":"checkspeech-landingpage","projectNumber":"194971793401","displayName":"CheckSpeech-landingpage","name":"projects/checkspeech-landingpage","resources":{"hostingSite":"checkspeech-landingpage"},"state":"ACTIVE","etag":"1_9d90b262-7db0-4687-a987-316e2f8de6e5"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-01-14T14:55:42.662Z] ----------------------------------------------------------------------
+[debug] [2024-01-14T14:55:42.664Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Familia Prates\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-14T14:55:42.664Z] CLI Version:   13.0.2
+[debug] [2024-01-14T14:55:42.665Z] Platform:      win32
+[debug] [2024-01-14T14:55:42.665Z] Node Version:  v18.17.1
+[debug] [2024-01-14T14:55:42.666Z] Time:          Sun Jan 14 2024 11:55:42 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2024-01-14T14:55:42.666Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-14T14:55:42.731Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-14T14:55:42.732Z] > authorizing via signed-in user (guipratesdsantos@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Familia Prates\Desktop\praticarangular\desafios-frontend\desafio-01\landing-page
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-14T14:56:28.850Z] Using project from CLI flag: checkspeech-landingpage
+[debug] [2024-01-14T14:56:28.852Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage [none]
+[debug] [2024-01-14T14:56:29.367Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage 200
+[debug] [2024-01-14T14:56:29.367Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage {"projectId":"checkspeech-landingpage","projectNumber":"194971793401","displayName":"CheckSpeech-landingpage","name":"projects/checkspeech-landingpage","resources":{"hostingSite":"checkspeech-landingpage"},"state":"ACTIVE","etag":"1_9d90b262-7db0-4687-a987-316e2f8de6e5"}
+[info] i  Using project checkspeech-landingpage (CheckSpeech-landingpage) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-14T14:56:29.374Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage [none]
+[debug] [2024-01-14T14:56:29.759Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage 200
+[debug] [2024-01-14T14:56:29.759Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/checkspeech-landingpage {"projectId":"checkspeech-landingpage","projectNumber":"194971793401","displayName":"CheckSpeech-landingpage","name":"projects/checkspeech-landingpage","resources":{"hostingSite":"checkspeech-landingpage"},"state":"ACTIVE","etag":"1_9d90b262-7db0-4687-a987-316e2f8de6e5"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
