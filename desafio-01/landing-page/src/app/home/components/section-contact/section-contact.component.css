@@ -54,6 +54,7 @@ fieldset {
 
 .form-grid input[type="text"],
 .form-grid input[type="email"],
+#country,
 .form-grid textarea {
     background: #F1F1FF;
     border: 2px solid #007FE3;
