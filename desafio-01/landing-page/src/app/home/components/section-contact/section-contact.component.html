@@ -18,7 +18,10 @@
                     </div>
                     <div id="pais">
                         <label for="pais">País:</label>
-                        <input type="text" name="pais" placeholder="País">
+                        <select name="pais" id="country">
+                            <option *ngFor="let country of countries" [value]="country.sigla3">{{ country.nome }}</option>
+                        </select>
+                        <!-- <input type="text" name="pais" placeholder="País"> -->
                     </div>
                     <div class="full-width">
                         <label>Mensagem:</label>

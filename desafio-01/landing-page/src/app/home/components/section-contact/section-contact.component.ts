@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import data_countries from "../../../../assets/data/data_countries.json";
 
 @Component({
   selector: 'app-section-contact',
@@ -21,7 +22,6 @@ export class SectionContactComponent {
   getNumber(getN: string) {
     const numericValue: string = getN.replace(/\D/g, '');
     this.formattedValue = this.formatarTelefone(numericValue);
-    
   }
 
   formatarTelefone(value: string): string {
@@ -34,4 +34,6 @@ export class SectionContactComponent {
     }
   }
   
+  //Adicionando combo de país
+  countries = data_countries.countries;
 }
