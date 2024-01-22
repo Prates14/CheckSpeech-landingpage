@@ -32,6 +32,7 @@
                         <label for="LGPD">Eu concordo com a Política de Privacidade.</label>
                     </div>
                     <div class="full-width envio">
+                        <span *ngIf="botaoDesabilitado"> >>Por favor, aceite a política de privacidade para envio do formulário.<< </span>
                         <app-button corFundo="#F1F1FF" corTexto="#000" titulo="enviar" *ngIf="!botaoDesabilitado"></app-button>
                     </div>
                 </div>

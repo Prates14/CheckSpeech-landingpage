@@ -24,13 +24,13 @@ export class SectionContactComponent {
     this.formattedValue = this.formatarTelefone(numericValue);
   }
 
-  formatarTelefone(value: string): string {
+  formatarTelefone(value: string): string { //+55 (31) 99340-1281
     if (value.length <= 2) {
-      return `(${value}`;
-    } else if (value.length <= 6) {
-      return `(${value.slice(0, 2)}) ${value.slice(2)}`;
+      return `+${value}`;
+    } else if (value.length <= 9) {
+      return `+${value.slice(0, 2)} (${value.slice(2, 4)}) ${value.slice(4)}`;
     } else {
-      return `(${value.slice(0, 2)}) ${value.slice(2, 7)}-${value.slice(7, 10)}`;
+      return `+${value.slice(0, 2)} (${value.slice(2, 4)}) ${value.slice(4, 9)}-${value.slice(9, 13)}`;
     }
   }
   

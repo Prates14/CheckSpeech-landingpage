@@ -90,3 +90,7 @@ fieldset {
 option {
     font-size: 15px;
 }
+
+span {
+    text-decoration: solid underline #000;
+}
