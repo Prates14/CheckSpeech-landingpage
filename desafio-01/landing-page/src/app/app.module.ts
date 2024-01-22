@@ -14,6 +14,7 @@ import { SectionPriceComponent } from './home/components/section-price/section-p
 import { PriceComponent } from './home/components/template/price/price.component';
 import { SectionContactComponent } from './home/components/section-contact/section-contact.component';
 import { SectionFooterComponent } from './home/components/section-footer/section-footer.component';
+import { CookiesBarComponent } from './home/components/template/cookies-bar/cookies-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SectionFooterComponent } from './home/components/section-footer/section
     SectionPriceComponent,
     PriceComponent,
     SectionContactComponent,
-    SectionFooterComponent
+    SectionFooterComponent,
+    CookiesBarComponent
   ],
   imports: [
     BrowserModule,

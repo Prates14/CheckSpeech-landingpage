@@ -1,0 +1,24 @@
+@media (max-width: 450px) {
+    .container {
+        left: 0;
+        width: auto;
+        height: 150px;
+    }
+
+    .content__btn {
+        flex-direction: row;
+    }
+
+    img {
+        width: 45px;
+    }
+    
+    button {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}

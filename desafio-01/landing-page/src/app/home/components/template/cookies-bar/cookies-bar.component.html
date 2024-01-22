@@ -1,0 +1,21 @@
+<div class="container" *ngIf="!cookieClick">
+    <div class="content">
+        <div class="image">
+            <div class="content__img">
+                <img src="./assets/img/cookie.png" alt="cookie">
+            </div>
+
+            <div class="content__btn">
+                <button class="btn" (click)="cookieDesabilitado()">Aceitar</button>
+                <button class="btn" (click)="cookieDesabilitado()">recusar</button>
+            </div>
+        </div>
+        <div class="text">
+            <p>Ao clicar em "Aceitar", 
+                você concorda que o Stack Exchange pode 
+                armazenar cookies em seu dispositivo e divulgar 
+                informações de acordo com nossa Política de Cookies.
+            </p>
+        </div>
+    </div>
+</div>
