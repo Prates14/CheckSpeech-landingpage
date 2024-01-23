@@ -123,6 +123,6 @@ input[id=panel-3]:checked~.accordion-content {
 }
 
 input[id=panel-4]:checked~.accordion-content {
-  height: 60px;
+  height: 85px;
   margin: 10px 15px;
 }

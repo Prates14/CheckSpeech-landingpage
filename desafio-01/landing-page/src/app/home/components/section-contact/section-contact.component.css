@@ -19,7 +19,6 @@ fieldset {
 }
 
 .footer-form legend {
-    display: block;
     margin-bottom: 20px;
     font-style: italic;
     font-size: 40px;
@@ -48,7 +47,6 @@ fieldset {
 }
 
 .form-grid label {
-    display: block;
     margin-bottom: 10px;
     font-weight: 600;
 }
@@ -71,10 +69,6 @@ fieldset {
 .form-grid textarea {
     height: 150px;
     font-size: 20px;
-}
-
-.full-width {
-    width: 100%;
 }
 
 .checkbox {
