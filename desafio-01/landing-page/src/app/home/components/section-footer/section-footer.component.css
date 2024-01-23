@@ -1,7 +1,7 @@
 .container {
     height: 28vh;
-    background: rgb(241,241,255);
-    background: linear-gradient(0deg, rgba(241,241,255,1) 98%, rgba(0,109,196,1) 100%);
+    background: rgb(241, 241, 255);
+    background: linear-gradient(0deg, rgba(241, 241, 255, 1) 98%, rgba(0, 109, 196, 1) 100%);
     margin-top: 15px;
 }
 
@@ -12,7 +12,7 @@
     height: 100%;
 }
 
-.logo > a > h3 {
+.logo>a>h3 {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -32,7 +32,8 @@ p {
     margin-top: 10px;
 }
 
-p, a {
+p,
+a {
     font-weight: 600;
     font-size: 17px;
 }

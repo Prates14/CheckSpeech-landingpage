@@ -14,12 +14,14 @@
                     </div>
                     <div id="telefone">
                         <label for="telefone">Número de telefone:</label>
-                        <input type="text" name="telefone" placeholder="Telefone" (input)="getNumber($any($event.target).value)" value="{{ formattedValue }}">
+                        <input type="text" name="telefone" placeholder="Telefone"
+                            (input)="getNumber($any($event.target).value)" value="{{ formattedValue }}">
                     </div>
                     <div id="pais">
                         <label for="pais">País:</label>
                         <select name="pais" id="country">
-                            <option *ngFor="let country of countries" [value]="country.sigla3">{{ country.nome }}</option>
+                            <option *ngFor="let country of countries" [value]="country.sigla3">{{ country.nome }}
+                            </option>
                         </select>
                         <!-- <input type="text" name="pais" placeholder="País"> -->
                     </div>
@@ -32,8 +34,10 @@
                         <label for="LGPD">Eu concordo com a Política de Privacidade.</label>
                     </div>
                     <div class="full-width envio">
-                        <span *ngIf="botaoDesabilitado"> >>Por favor, aceite a política de privacidade para envio do formulário.<< </span>
-                        <app-button corFundo="#F1F1FF" corTexto="#000" titulo="enviar" *ngIf="!botaoDesabilitado"></app-button>
+                        <span *ngIf="botaoDesabilitado"> >>Por favor, aceite a política de privacidade para envio do
+                            formulário.<< </span>
+                                <app-button corFundo="#F1F1FF" corTexto="#000" titulo="enviar"
+                                    *ngIf="!botaoDesabilitado"></app-button>
                     </div>
                 </div>
             </fieldset>

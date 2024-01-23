@@ -24,22 +24,24 @@
     .logo img {
         transform: scale(0.7);
     }
-    
+
     p {
         gap: 0;
         margin-top: 0;
         line-height: normal;
     }
-    
-    p, a {
+
+    p,
+    a {
         font-size: 16px;
     }
 
     .menu-bar {
         margin-bottom: 20px;
     }
-    
-    .menu-bar h3, .contato h3 {
+
+    .menu-bar h3,
+    .contato h3 {
         font-size: 23px;
         margin-bottom: 0;
     }
@@ -51,7 +53,7 @@
     .contato p img {
         transform: scale(0.6);
     }
-    
+
     .copyright p {
         font-size: 17px;
         margin: 5px;
@@ -66,15 +68,17 @@
     .logo img {
         transform: scale(0.6);
     }
-    
-    p, a {
+
+    p,
+    a {
         font-size: 14px;
     }
-    
-    .menu-bar h3, .contato h3 {
+
+    .menu-bar h3,
+    .contato h3 {
         font-size: 20px;
     }
-    
+
     .copyright p {
         font-size: 15px;
     }
@@ -85,11 +89,13 @@
         font-size: 17px;
     }
 
-    p, a {
+    p,
+    a {
         font-size: 13px;
     }
-    
-    .menu-bar h3, .contato h3 {
+
+    .menu-bar h3,
+    .contato h3 {
         font-size: 17px;
     }
 

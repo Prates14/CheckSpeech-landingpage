@@ -4,7 +4,7 @@ import data_countries from "../../../../assets/data/data_countries.json";
 @Component({
   selector: 'app-section-contact',
   templateUrl: './section-contact.component.html',
-  styleUrls: ['./section-contact.component.css','./section-contact.responsive.component.css']
+  styleUrls: ['./section-contact.component.css', './section-contact.responsive.component.css']
 })
 
 export class SectionContactComponent {
@@ -33,7 +33,7 @@ export class SectionContactComponent {
       return `+${value.slice(0, 2)} (${value.slice(2, 4)}) ${value.slice(4, 9)}-${value.slice(9, 13)}`;
     }
   }
-  
+
   //Adicionando combo de país
   countries = data_countries.countries;
 }

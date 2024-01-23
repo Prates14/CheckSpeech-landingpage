@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class CookiesBarComponent {
   cookieClick: boolean = false;
 
-  cookieDesabilitado(): any{
+  cookieDesabilitado(): any {
     this.cookieClick = true;
   }
 }

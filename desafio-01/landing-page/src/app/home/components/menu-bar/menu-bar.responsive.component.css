@@ -28,7 +28,7 @@
         display: none;
     }
 
-    .bar-navigation > ul {
+    .bar-navigation>ul {
         display: flex;
         flex-direction: column;
         align-items: center;
