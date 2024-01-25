@@ -88,3 +88,8 @@ option {
 span {
     text-decoration: solid underline #000;
 }
+
+.error-text {
+    font-size: 14px;
+    color: red;
+}

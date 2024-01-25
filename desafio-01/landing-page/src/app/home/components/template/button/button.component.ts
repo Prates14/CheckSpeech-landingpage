@@ -13,6 +13,8 @@ export class ButtonComponent {
   corFundo: string = "";
   @Input()
   corTexto: string = "";
+  @Input()
+  tipo: string = "";
 
   constructor() { }
 

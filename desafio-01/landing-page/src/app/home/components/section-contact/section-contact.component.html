@@ -1,21 +1,40 @@
 <div class="container">
     <div class="footer-form">
-        <form action="#" method="get">
+        <form #formulario="ngForm" (ngSubmit)="onSubmit(formulario)">
             <fieldset>
                 <legend>Formulário de contato</legend>
                 <div class="form-grid">
                     <div id="nome">
-                        <label for="name">Nome:</label>
-                        <input type="text" name="name" placeholder="Nome">
+                        <label for="campo1">Nome:</label>
+                        <input type="text" id="campo1" name="campo1" placeholder="Nome"
+                            [(ngModel)]="modeloDoFormulario.campo1" minlength="3" required>
+                        <div
+                            *ngIf="formulario.controls['campo1'] && formulario.controls['campo1'].touched && formulario.controls['campo1'].invalid">
+                            <p *ngIf="formulario.controls['campo1'].hasError('required')" class="error-text">Campo
+                                vazio.
+                            </p>
+                            <p *ngIf="formulario.controls['campo1'].hasError('minlength')" class="error-text">Mínimo de
+                                3 caracteres.</p>
+                        </div>
                     </div>
                     <div id="email">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" placeholder="Seuemail@gmail.com">
+                        <label for="campo2">Email:</label>
+                        <input type="email" id="campo2" name="campo2" placeholder="Seuemail@gmail.com"
+                            [(ngModel)]="modeloDoFormulario.campo2"
+                            pattern="/^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i" required>
+                        <div
+                            *ngIf="formulario.controls['campo2'] && formulario.controls['campo2'].touched && formulario.controls['campo2'].invalid">
+                            <p *ngIf="!modeloDoFormulario.campo2" class="error-text">Campo vazio
+                            </p>
+                            <p *ngIf="!validaEmail(modeloDoFormulario.campo2)" class="error-text">Email
+                                inválido</p>
+                        </div>
                     </div>
                     <div id="telefone">
                         <label for="telefone">Número de telefone:</label>
-                        <input type="text" name="telefone" placeholder="Telefone"
+                        <input type="text" name="telefone" placeholder="Telefone" maxlength="18"
                             (input)="getNumber($any($event.target).value)" value="{{ formattedValue }}">
+                        <p *ngIf="!validaTelefone(formattedValue)" class="error-text">Número inválido.</p>
                     </div>
                     <div id="pais">
                         <label for="pais">País:</label>
@@ -23,7 +42,6 @@
                             <option *ngFor="let country of countries" [value]="country.sigla3">{{ country.nome }}
                             </option>
                         </select>
-                        <!-- <input type="text" name="pais" placeholder="País"> -->
                     </div>
                     <div class="full-width">
                         <label>Mensagem:</label>
@@ -36,7 +54,7 @@
                     <div class="full-width envio">
                         <span *ngIf="botaoDesabilitado"> >>Por favor, aceite a política de privacidade para envio do
                             formulário.<< </span>
-                                <app-button corFundo="#F1F1FF" corTexto="#000" titulo="enviar"
+                                <app-button corFundo="#F1F1FF" corTexto="#000" titulo="enviar" tipo="submit"
                                     *ngIf="!botaoDesabilitado"></app-button>
                     </div>
                 </div>
